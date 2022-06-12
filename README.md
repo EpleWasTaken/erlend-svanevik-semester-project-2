@@ -1,6 +1,6 @@
 # Semester Project 2 / Bergen Shoe Shop
 
-![image](./src/img/)
+![image](./img/BergenShoeShopImg.png)
 
 A simple overview of the project. I am fetching cat facts from the API and displaying them on the front page, you can click a individual fact and you get brought to the details page for that specific fact.
 
