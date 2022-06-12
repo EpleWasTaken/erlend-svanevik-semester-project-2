@@ -1,0 +1,85 @@
+.admin_form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(199, 199, 199);
+  margin-top: 30px !important;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+}
+
+.form-input {
+  border: 1px solid black;
+}
+
+.admin_container {
+  margin-top: 30px !important;
+}
+
+.admin_editor_container {
+  margin-bottom: 30px !important;
+  position: relative;
+}
+
+#admin_editor_img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.5s ease;
+}
+
+.admin_editor_info {
+  align-items: center;
+}
+
+.admin_editor_title {
+}
+
+.admin_editor_price {
+}
+
+.fas.fa-times {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .admin_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    width: 80%;
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+  }
+
+  .admin_editor {
+    width: 80%;
+    margin: 0 auto !important;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .admin_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    width: 80%;
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+  }
+
+  .admin_editor {
+    width: 80%;
+    margin: 0 auto !important;
+  }
+}

@@ -1,0 +1,75 @@
+nav {
+  background-color: getColour(main-purple);
+}
+
+.active {
+  color: white;
+}
+
+.navbar-brand {
+  height: 100%;
+  display: flex !important;
+  margin-left: 10px !important;
+}
+
+#logo {
+  max-width: 100px;
+  width: 100%;
+  margin: getMargin(main-margin) !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: black;
+  margin-right: 10px !important;
+}
+
+.nav-link {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: white !important;
+}
+
+.nav-link:hover {
+  background-color: black;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+.active {
+  background-color: black;
+  border-radius: 0.25rem;
+}
+
+.navbar-nav {
+  margin-bottom: 30px !important;
+  margin-left: auto !important;
+  margin-bottom: 0px !important;
+}
+
+.menu {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-nav {
+    width: 450px;
+    min-width: 20%;
+    justify-content: space-between;
+    padding-right: 0;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .navbar-brand {
+    margin-left: 0 !important;
+  }
+}

@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  scroll-behavior: smooth;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+$margins: (
+  main-margin: 0 auto,
+);
+
+@function getMargin($margin) {
+  @return map-get($margins, $margin);
+}
+
+@media screen and (min-width: 768px) {
+  .container-fluid {
+    width: 80%;
+    margin: getMargin(main-margin) !important;
+  }
+}

@@ -1,0 +1,10 @@
+$colours: (
+  main-purple: rgb(100, 0, 146),
+  twitter-blue: #00acee,
+  facebook-blue: #3b5998,
+  
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
