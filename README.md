@@ -2,17 +2,18 @@
 
 ![image](./img/BergenShoeShopImg.png)
 
-A simple overview of the project. I am fetching cat facts from the API and displaying them on the front page, you can click a individual fact and you get brought to the details page for that specific fact.
+Bergen Shoe Shop is a ecommerce website for shopping shoes in Bergen, Norway.
 
 ## Description
 
-This is the javascript frameworks course assignment, which had nothing to do with styling. It's simply for showing what I've learned during the course which was more technical oriented. I will visit it at a later date to add some styling to it.
+Has featured products, page for all products with a search bar and a products specific page.
 
 ## Built With
 
-- [React.js](https://reactjs.org/)
-- [Wordpress REST API](https://developer.wordpress.org/rest-api/)
-- [Cat fact API](https://cat-fact.herokuapp.com/facts)
+- [JavaScript](https://www.javascript.com/)
+- [Strapi](https://strapi.io/)
+- [Heroku](https://www.heroku.com/)
+- [Sass](https://sass-lang.com/)
 
 ## Getting Started
 
@@ -29,33 +30,13 @@ Hold CTRL + SHIFT + ` to open a new terminal in vscode
 2. Clone the repo:
 
 ```
-git clone https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-EpleWasTaken.git
+git clone https://github.com/EpleWasTaken/erlend-svanevik-semester-project-2.git
 ```
 
-3. First cd into the main repository:
+3. Install the dependencies:
 
 ```
-cd js-frameworks-course-assignment-EpleWasTaken
-```
-
-4. Cd into the react app project folder
-
-```
-cd epledev-js-ca
-```
-
-5. Install the following dependencies
-
-```
-npm install react react-router-dom
-```
-
-### Start the website
-
-To run the website, run the following command in the terminal you opened:
-
-```bash
-npm run start
+npm install
 ```
 
 ## Contact
